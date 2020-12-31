@@ -1,0 +1,5 @@
+savedata = (datatype) =>{
+ return (event) =>{
+   this.setState({[datatype]:event.target.value})
+   }
+}
